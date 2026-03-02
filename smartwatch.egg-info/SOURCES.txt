@@ -1,0 +1,15 @@
+pyproject.toml
+smartwatch/__init__.py
+smartwatch/cli.py
+smartwatch/config.py
+smartwatch/handlers.py
+smartwatch/utils.py
+smartwatch/watcher.py
+smartwatch.egg-info/PKG-INFO
+smartwatch.egg-info/SOURCES.txt
+smartwatch.egg-info/dependency_links.txt
+smartwatch.egg-info/entry_points.txt
+smartwatch.egg-info/requires.txt
+smartwatch.egg-info/top_level.txt
+tests/test_handlers.py
+tests/test_watcher.py

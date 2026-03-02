@@ -1,0 +1,4 @@
+watchdog
+typer
+pyyaml
+pydantic

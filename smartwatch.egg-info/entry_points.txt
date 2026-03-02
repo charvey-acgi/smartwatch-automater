@@ -1,0 +1,2 @@
+[console_scripts]
+smartwatch = smartwatch.cli:app

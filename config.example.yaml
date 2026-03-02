@@ -1,0 +1,23 @@
+watch:
+  - path: "c:\\temp"
+    recursive: true
+    rules:
+      - name: "Log all txt files"
+        patterns: ["*.txt"]
+        on_events: ["created", "modified"]
+        action:
+          type: log
+
+      - name: "Copy CSVs to backup"
+        patterns: ["*.csv"]
+        on_events: ["created", "modified"]
+        action:
+          type: copy
+          destination: "c:\\temp\\backup"
+
+      - name: "Run script on JSON change"
+        patterns: ["*.json"]
+        on_events: ["modified"]
+        action:
+          type: run
+          command: "python process.py {file}"
