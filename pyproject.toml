@@ -10,7 +10,7 @@ readme = "README.md"
 requires-python = ">=3.11"
 license = { text = "MIT" }
 authors = [
-    { name = "Your Name", email = "your@email.com" }
+    { name = "Chad Harvey", email = "harveyca@gmail.com" }
 ]
 keywords = ["automation", "file-watcher", "watchdog", "cli"]
 classifiers = [
@@ -30,8 +30,8 @@ dependencies = [
 smartwatch = "smartwatch.cli:app"
 
 [project.urls]
-Homepage = "https://github.com/yourusername/smartwatch-automator"
-Issues = "https://github.com/yourusername/smartwatch-automator/issues"
+Homepage = "https://github.com/charvey-acgi/smartwatch-automater"
+Issues = "https://github.com/charvey-acgi/smartwatch-automater/issues"
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
